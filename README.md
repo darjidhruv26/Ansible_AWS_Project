@@ -2,8 +2,8 @@
 
 Ansible is an Infrastucture as code. 
 Configuration management tool.
-![AWS_Architecture](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/37ae925f-3286-4276-a86c-e548164099c1)
 
+![AWS_Ansible](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/951bad1e-fc9f-4bc4-983d-21e7ec813621)
 
 ![1](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/b4f5c94f-69cb-4918-badb-8a1d3dce6c54)
 
