@@ -5,6 +5,8 @@ Configuration management tool.
 
 [Aws archi.pptx](https://github.com/darjidhruv26/Ansible_AWS_Project/files/11526936/Aws.archi.pptx)
 
+![Awsarchi](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/48def143-af48-42cf-9031-12a8b4a15d7e)
+
 ![1](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/b4f5c94f-69cb-4918-badb-8a1d3dce6c54)
 
 ![2](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/67b42d36-3574-42c5-b710-57735caf647f)
