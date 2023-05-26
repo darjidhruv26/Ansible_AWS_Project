@@ -2,7 +2,8 @@
 
 ![download](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/16850582-7c2d-4600-9bc6-e125c8b7a959)
 
-Ansible is an Infrastucture as code. 
+- Ansible is an Open-Soure IT configuration management, Deployment, and Orchestration tool.
+- Ansible uses Push-based mechanism
 
 [Aws archi.pptx](https://github.com/darjidhruv26/Ansible_AWS_Project/files/11526936/Aws.archi.pptx)
 
