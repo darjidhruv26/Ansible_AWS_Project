@@ -35,6 +35,29 @@
 
 ![tomcat run](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/43683f7b-0691-4b76-9f87-5b789147d093)
 
+```
+---
+- host: all
+  tasks:
+    - name: Print message
+      debug:
+        mag: Hello Ansible
+  task:
+    - name: Check if folder exist
+      stat:
+        path: /home/ubuntu/Docker
+      register: file
+    - name: Cloning
+      shell: |
+        cd /home/ubuntu/
+        git clone https://github.com/darjidhruv26/java-docker.git
+      when: not file.stat.exists
+    - name: Build & Deploy
+        shell: |
+          cd /home/ubuntu/Docker
+          mvn clean package
+          cp target/java-docker.war /usr/share/tomcat/webapp
+```
 ![yml file](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/49a9eb10-989e-4a01-a61b-fcec984d7e40)
 
 ![script yml out](https://github.com/darjidhruv26/Ansible_AWS_Project/assets/90086813/5bb30960-7806-4019-aa83-b85be4a2bf70)
