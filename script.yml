@@ -1,0 +1,21 @@
+---
+- host: all
+  tasks:
+    - name: Print message
+      debug:
+        mag: Hello Ansible
+  task:
+    - name: Check if folder exist
+      stat:
+        path: /home/ubuntu/Docker
+      register: file
+    - name: Cloning
+      shell: |
+        cd /home/ubuntu/
+        git clone https://github.com/darjidhruv26/java-docker.git
+      when: not file.stat.exists
+    - name: Build & Deploy
+        shell: |
+          cd /home/ubuntu/Docker
+          mvn clean package
+          cp target/java-docker.war /usr/share/tomcat/webapp
